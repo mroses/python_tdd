@@ -28,4 +28,4 @@ class MainTest(unittest.TestCase):
     def test_less_than(self):
         self.assertTrue(less_than(4))
         self.assertTrue(less_than(-2))
-        self.assertTrue(less_than(0))
+        self.assertFalse(less_than(200))
